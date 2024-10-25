@@ -37,9 +37,6 @@ def create_folder(file_path, source_folder):
 if __name__ == "__main__":
     # Specify folder to organize
     source_folder = r"C:/Users/marie/OneDrive/Documents/PythonTest/"
-    try:
-        print(os.listdir(source_folder))
-    except FileNotFoundError as e:
-        print(f"Error: {e}")
-    #organize_files_by_year(source_folder)
+    organize_files_by_year(source_folder)
+
 
